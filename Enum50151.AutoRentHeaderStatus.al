@@ -1,0 +1,14 @@
+enum 50151 "Auto Rent Header Status"
+{
+    Caption = 'Status';
+    Extensible = true;
+
+    value(0; Open)
+    {
+        Caption = 'Open';
+    }
+    value(1; Released)
+    {
+        Caption = 'Released';
+    }
+}
